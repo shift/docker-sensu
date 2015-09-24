@@ -13,6 +13,19 @@ RUN apt-get update \
     && bundle install \
     && gem install sensu-plugins-slack \
     && gem install sensu-plugins-github \
+    && gem install sensu-plugins-dns \
+    && gem install sensu-plugins-network-checks \
+    && gem install sensu-plugins-docker \
+    && gem install sensu-plugins-workpress \
+    && gem install sensu-plugins-redis \
+    && gem install sensu-plugins-influxdb \
+    && gem install sensu-plugins-graphite \
+    && gem install sensu-plugins-rabbitmq \
+    && gem install sensu-plugins-elasticsearch \
+    && gem install sensu-plugins-ssl \
+    && gem install sensu-plugins-ntp \
+    && gem install sensu-plugins-postgresql \
+    && gem install sensu-plugins-openvpn \
     && rm -rf ../v0.20.5.tar.gz \
     && rm -rf /var/lib/apt/lists/*
 
