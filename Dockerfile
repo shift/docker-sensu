@@ -16,7 +16,6 @@ RUN apt-get update \
     && gem install sensu-plugins-dns \
     && gem install sensu-plugins-network-checks \
     && gem install sensu-plugins-docker \
-    && gem install sensu-plugins-workpress \
     && gem install sensu-plugins-redis \
     && gem install sensu-plugins-influxdb \
     && gem install sensu-plugins-graphite \
