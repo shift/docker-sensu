@@ -23,7 +23,7 @@ RUN apt-get update \
     && gem install sensu-plugins-elasticsearch \
     && gem install sensu-plugins-ssl \
     && gem install sensu-plugins-ntp \
-    && gem install sensu-plugins-postgresql \
+    && gem install sensu-plugins-postgres \
     && gem install sensu-plugins-openvpn \
     && rm -rf ../v0.20.5.tar.gz \
     && rm -rf /var/lib/apt/lists/*
